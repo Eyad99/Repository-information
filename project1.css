@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+	h1{
+			text-align: center;
+			
+		}
+		body{
+			width: 100%;
+		}
+		
+	
+		div{
+			margin-bottom: 10px;
+			background-color: antiquewhite;
+			width:30%;
+			float: left;
+			margin-left: 5px; 
+			overflow: hidden;
+			padding: 3px;
+			
+
+		}
+
+
+@media (max-width:1200px){
+	
+}
+
+		@media(min-width:992px)and (max-width:1199) {
+			div{
+					margin-bottom: 10px;
+			background-color: antiquewhite;
+			width:30%;
+			float: left;
+			margin-left: 5px; 
+			overflow: hidden;
+			padding: 3px;
+			}
+			
+		}
+			@media (min-width:767px)and (max-width:991px){
+		
+			div{
+				width:40%;
+				height: 100px;
+				border: 2px solid #333;
+				float: left;
+				background-color:chocolate;
+		
+			}
+				.r{
+					width: 81.9%;
+				}
+		}
+		@media (max-width:767px){
+		
+			div{
+					background-color: violet;
+				width:500px;
+				height: 100px;
+				border: 2px solid #333;
+				float:none;
+				background-color: burlywood;
+			}
+		}
+
+	
+		
+		.left{
+			width: 50px;
+			height: 20px;
+			border-radius: 9px 9px 9px 9px ;
+			background-color: whitesmoke;
+			float: right;
+			text-align: center;
+		}
+		.center{
+				width: 50px;
+						height: 20px;
+
+			border-radius: 9px 9px 9px 9px ;
+			background-color:cornsilk;
+			float: right;
+						text-align: center;
+
+			
+		}
+		.right{
+				width: 50px;
+						height: 20px;
+
+			border-radius: 9px 9px 9px 9px ;
+			background-color:bisque;
+			float: right;
+						text-align: center;
+
+		}
+
